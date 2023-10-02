@@ -2,17 +2,21 @@ package ru.job4j;
 
 public class Variables2 {
     public static void main(String[] args) {
-        /*
-        * byte age; - возраст (подразумевается возраст человека);
-        * char gender; - пол (обозначать будем символами - мужской сокращаем до М, женский до Ж);
-        * float height; - рост (измерять будем в метрах);
-        * short numberOfBricks; - количество кирпичей для постройки дома (небольшой одноэтажный дом площадью 100м2);
-        * double numberOfBacteria; - количество бактерий (измерять будем в КОЕ / г - такую величину можно встретить
-        если почитать состав обычного йогурта, часто там можно встретить число 1 * 107 КОЕ / г);
-        * double distance; - расстояние до космических объектов (измерять будем в км);
-        * boolean permission; - разрешение на работу
-        (рассматриваем всего 2 значения - или есть разрешение или его нет);
-        * byte size; - размер файла (измерять будем в байтах).
-         */
+        byte age = 20;
+        System.out.println(age);
+        char gender = 'M';
+        System.out.println(gender);
+        float height = 2.05F;
+        System.out.println(height);
+        short numberOfBricks = 22000;
+        System.out.println(numberOfBricks);
+        double numberOfBacteria = 80.5;
+        System.out.println(numberOfBacteria);
+        double distance = 552055052.76;
+        System.out.println(distance);
+        boolean permission = true;
+        System.out.println(permission);
+        byte size = 15;
+        System.out.println(size);
     }
 }
