@@ -2,7 +2,7 @@ package ru.job4j;
 
 public class Variables2 {
     public static void main(String[] args) {
-        /**
+        /*
         * byte age; - возраст (подразумевается возраст человека);
         * char gender; - пол (обозначать будем символами - мужской сокращаем до М, женский до Ж);
         * float height; - рост (измерять будем в метрах);
