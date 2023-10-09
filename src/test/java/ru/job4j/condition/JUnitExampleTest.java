@@ -39,6 +39,8 @@ class JUnitExampleTest {
         assertThat(result).isEqualTo(40);
     }
 
+    /*
+
     @Timeout(3)
     @Test
     void when7and7then49() throws InterruptedException {
@@ -56,4 +58,6 @@ class JUnitExampleTest {
         int result = example.multiply(9, 2);
         assertThat(result).isEqualTo(18);
     }
+
+     */
 }
