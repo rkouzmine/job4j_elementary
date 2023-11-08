@@ -50,4 +50,13 @@ class PointTest {
         double out = a.distance(b);
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
+
+    @Test
+    void when20To02Then2dot82() {
+        Point a = new Point(2, 0);
+        Point b = new Point(0, 2);
+        double expected = 2.82;
+        double out = a.distance(b);
+        assertThat(out).isEqualTo(expected, withPrecision(0.01));
+    }
 }
